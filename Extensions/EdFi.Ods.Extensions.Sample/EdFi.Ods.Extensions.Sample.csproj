@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Versions\$(ExtensionVersion)\Standard\$(StandardVersion)\**\*.cs" />
-    <EmbeddedResource Include="Versions\$(ExtensionVersion)\Standard\$(StandardVersion)\Artifacts\Metadata\ApiModel-EXTENSION.json">
+    <EmbeddedResource Include="Versions\$(ExtensionVersion)\Standard\$(StandardVersion)\Artifacts\Metadata\ApiModel-EXTENSION*.json">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <SubType>Designer</SubType>
